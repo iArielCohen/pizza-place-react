@@ -1,6 +1,6 @@
 import React from "react";
 
-import pizzaVideo from "../../assets/videos/pizza.mp4";
+import pizzaVideo from "../../assets/videos/pizza2.mp4";
 import { Link } from "react-router-dom";
 
 import "./Home.css";
