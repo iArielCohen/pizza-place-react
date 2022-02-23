@@ -30,6 +30,13 @@
   color: white;
   text-decoration: none;
   margin: 20px;
+  font-size: 18px;
+  transition: all 0.2s ease;
+}
+
+.navbar a:hover {
+  transform: scale(1.1);
+  color: crimson;
 }
 
 .navbar .rightSide button {
