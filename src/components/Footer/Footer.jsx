@@ -1,19 +1,17 @@
 import React from "react";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import TwitterIcon from "@material-ui/icons/Twitter";
+import GithubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "./Footer.css";
 
 function Footer() {
-  const time = new Date();
-  const year = new Date().getFullYear();
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> <LinkedInIcon />
+        <LinkedInIcon className="linkedin" /> <GithubIcon className="github" />{" "}
+        <FacebookIcon className="facebook" />
       </div>
-      <p> &copy; {year} PizzaPlace.com</p>
+      <p> &copy; {new Date().getFullYear()} PizzaPlace.com</p>
     </div>
   );
 }
